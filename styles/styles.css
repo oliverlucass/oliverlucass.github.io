@@ -63,6 +63,7 @@ nav {
     font-weight: 600;
 }
 
+
 #first {
     width: 70%;
     height: 100vh;
@@ -189,7 +190,7 @@ nav {
 }
 
 .rodape {
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .rodape h1 {
@@ -224,7 +225,7 @@ nav {
 }
 
 .footer span {
-    margin-top: 160px;
+    margin-top: 70px;
     display: block;
     border-bottom: 1px solid #38444D;
 }
@@ -251,4 +252,31 @@ nav {
     color: #bacedd;
     margin-left: 18px;
     margin-top: 90vh;
+}
+
+.cv { 
+    margin-top: 100px;
+}
+
+.cv button {
+    height: 50px;
+    width: 140px;
+    border-radius: 10px;
+    border: none;
+    background-color: #253341;
+    color: #bacedd;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+}
+
+.cv button:hover {
+    background-color: #15202B;
+}
+
+.cv button:active {
+    background-color: #253341;
+    box-shadow: 0 3px #38444D;
+    transform: translateY(4px);
+  
 }
