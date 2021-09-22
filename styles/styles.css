@@ -63,6 +63,10 @@ nav {
     font-weight: 600;
 }
 
+.nav-links a:hover{
+    color: #e1e1e1;
+}
+
 #first {
     width: 70%;
     height: 100vh;
@@ -134,6 +138,10 @@ nav {
     border-bottom: 1px solid black;   
 }
 
+.container:hover {
+    border: 2px solid black;
+}
+
 
 .containerTitle {
     display: inline-block;
@@ -146,6 +154,11 @@ nav {
     border-right: 1px solid black;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
+}
+
+.containerTitle:hover {
+   
+    border: 2px solid black;
 }
 
 .containerTitle p {
@@ -200,9 +213,8 @@ nav {
 
 .rodape p {
     font-size: 35px;
-    color: #F1F1F1;
-    
-    margin-top: 10px;    
+    color: #F1F1F1; 
+    margin-top: 10px;  
 }
 
 #github {
@@ -210,7 +222,7 @@ nav {
     height: auto;
     max-height: 50px;
     max-width: 50px;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-right: 60px;
     border-radius: 50%;
     padding: 10px;
@@ -218,6 +230,10 @@ nav {
 
 #github:hover {
     background-color: #15202B;
+    width: auto;
+    height: auto;
+    max-height: 51px;
+    max-width: 51px;
 }
 
 #linkedin {
@@ -225,7 +241,7 @@ nav {
     height: auto;
     max-height: 50px;
     max-width: 50px;  
-    margin-top: 80px;
+    margin-top: 35px;
     margin-left: 60px;
     border-radius: 50%;
     padding: 10px;
@@ -233,10 +249,14 @@ nav {
 
 #linkedin:hover {
     background-color: #15202B;
+    width: auto;
+    height: auto;
+    max-height: 51px;
+    max-width: 51px;
 }
 
 .footer span {
-    margin-top: 55px;
+    margin-top: 60px;
     display: block;
     border-bottom: 1px solid #38444D;
 }
@@ -244,7 +264,7 @@ nav {
 .footer p {
     float: right;
     margin-right: 10px;
-    margin-top: 40px;
+    margin-top: 25px;
     color: #8899A6;
 }
  
@@ -266,7 +286,7 @@ nav {
 }
 
 .cv { 
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .cv button {
@@ -276,13 +296,14 @@ nav {
     border: none;
     background-color: #253341;
     color: #bacedd;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 1000;
 }
 
 .cv button:hover {
     background-color: #15202B;
+    font-size: 16px;
 }
 
 .cv button:active {
