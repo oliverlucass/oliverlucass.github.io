@@ -248,6 +248,7 @@ nav {
 .cv button:hover {
     background-color: #15202B;
     font-size: 16px;
+    cursor: pointer;;
 }
 
 .cv button:active {
@@ -290,6 +291,7 @@ nav {
     #second {
         width: 100%;
         margin-left: 0;
+        border: none;
     }
 
     #second h2 {
@@ -299,6 +301,7 @@ nav {
     }
 
     .projectsContainer{
+        margin-top: 50px;
         width: 300px;
         height: 300px;
     }
