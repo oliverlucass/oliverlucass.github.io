@@ -298,6 +298,7 @@ nav {
 
     .projectsContainer{
         margin: 100px 0;
+        width: 100%;
     }
 
     #third {
@@ -306,4 +307,11 @@ nav {
         
     }
 
+    .direita {
+        display: none;
+    }
+
+    .direita p {
+        display: none;
+    }
 }
