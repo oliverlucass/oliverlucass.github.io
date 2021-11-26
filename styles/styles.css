@@ -122,72 +122,16 @@ nav {
     margin-top: 50px;
     font-size: 35px;
     color:#F1F1F1; 
-    text-decoration: underline double #062031;
+    text-decoration: underline #062031;
 }
 
-.container {
-    display: inline-block;
-    margin-top: 13vh;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 348px;
-    height: 350px;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;   
-}
-
-.container:hover {
-    border: 2px solid black;
-}
-
-
-.containerTitle {
-    display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 348px;
-    height: 50px;
-    background-color: #192734;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-}
-
-.containerTitle:hover {
-   
-    border: 2px solid black;
-}
-
-.containerTitle p {
-    margin-top: 8px;
-    color:#F1F1F1;
-    font-size: 25px;
-    font-weight: bold;
+.projectsContainer{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin: 5% auto;
     
 }
-
-.containerTitle a {
-    text-decoration: none;
-}
-
-.container img {
-    display: flex;
-    width: auto;
-    height: auto;
-    max-height: 350px;
-    max-width: 350px;
-}
-
-#img2 {
-    width: 350px;
-    height: 350px;
-   
-
-}
-
 
 #third {
     width: 70%;
@@ -311,4 +255,55 @@ nav {
     box-shadow: 0 3px #38444D;
     transform: translateY(4px);
   
+}
+
+@media screen and (max-width: 480px){
+    nav {
+        width: 100%;
+        display: block;
+        position:static;
+    }
+
+    #profile {
+        margin-top: 80px;
+    }
+
+    #description {
+        margin: 60px 0;
+    }
+
+    .nav-links {
+        margin-top: 80px;
+    }
+
+    #first {
+        width: 100%;
+        margin: 0%;
+    }
+
+    #title {
+        margin-top: 150px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    #second {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #second h2 {
+        margin-top: 100px;
+    }
+
+    .projectsContainer{
+        margin: 100px 0;
+    }
+
+    #third {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
 }
