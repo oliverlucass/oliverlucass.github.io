@@ -326,6 +326,7 @@ nav {
 
     .rodape p {
         font-size: 26px;
+        margin: 15px 0 15px 0;
     }
 
     .direita {
@@ -342,6 +343,6 @@ nav {
     }
 
     .span {
-        margin-top: 60px;
+        margin-top: 30px;
     }
 }
