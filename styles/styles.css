@@ -282,7 +282,7 @@ nav {
     }
 
     #title {
-        margin-top: 150px;
+        margin-top: 100px;
         padding: 0 20px;
         text-align: center;
     }
@@ -293,7 +293,9 @@ nav {
     }
 
     #second h2 {
-        margin-top: 100px;
+        margin-top: 100 px;
+        border: none;
+        text-decoration: none;
     }
 
     .projectsContainer{
@@ -313,5 +315,10 @@ nav {
 
     .direita p {
         display: none;
+    }
+
+    .cv {
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 }
