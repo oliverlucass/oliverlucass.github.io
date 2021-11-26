@@ -309,11 +309,12 @@ nav {
         margin-top: 150px;
         width: 300px;
         height: 300px;
+        border: 2px solid black;
     }
 
     .projectsContainer img {
-        max-width: 100%;
-        max-height: 100%;
+        width: 100%;
+        
     }
 
     #third {
