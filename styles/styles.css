@@ -61,10 +61,11 @@ nav {
     margin-bottom: 25px;
     font-size: 20px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .nav-links a:hover{
-    color: #e1e1e1;
+    color: #FEFEFE;
 }
 
 #first {
@@ -279,6 +280,7 @@ nav {
 
     .nav-links {
         margin-top: 60px;
+        text-transform: uppercase;
     }
 
     #first {
@@ -326,7 +328,7 @@ nav {
 
     .rodape p {
         font-size: 26px;
-        margin: 15px 0 15px 0;
+        margin: 15px 0 15px 0;  
     }
 
     .direita {
