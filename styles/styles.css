@@ -124,12 +124,19 @@ nav {
 .projectsContainer {
   width: 400px;
   height: 400px;
-  margin: 70px auto;
+  margin: 40px auto;
+  background: url(/assets/img/Mask-Group.png);
+  border: 2px solid yellowgreen;
+  animation: slide 10s infinite;
 }
 
-.projectsContainer img {
-  max-width: 100%;
-  max-height: 100%;
+@keyframes slide {
+  50% {
+    background: url(/assets/img/selfcare.png);
+  }
+  100% {
+    background: url(/assets/img/Mask-Group.png);
+  }
 }
 
 #third {
@@ -316,14 +323,20 @@ nav {
   }
 
   .projectsContainer {
-    margin-top: 150px;
+    margin-top: 120px;
     width: 300px;
     height: 300px;
     border: 2px solid yellowgreen;
+    background: url(/assets/img/selfcare300px.png);
   }
 
-  .projectsContainer img {
-    width: 100%;
+  @keyframes slide {
+    50% {
+      background: url(/assets/img/selfcare300px.png);
+    }
+    100% {
+      background: url(/assets/img/Mask-Group300px.png);
+    }
   }
 
   #third {
